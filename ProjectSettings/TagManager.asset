@@ -7,6 +7,7 @@ TagManager:
   - Station
   - Ship
   - Hazard
+  - BlackHole
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - Red
   - Green
   - Blue
-  - 
+  - Camera
   - 
   - 
   - 
@@ -44,9 +45,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Stations
+  - name: Background
+    uniqueID: 3440316541
+    locked: 0
+  - name: Objects
     uniqueID: 2231458965
+    locked: 0
+  - name: BlackHoles
+    uniqueID: 1429060071
+    locked: 0
+  - name: Paths
+    uniqueID: 3521883217
     locked: 0
   - name: Ships
     uniqueID: 4062824727
+    locked: 0
+  - name: Particles
+    uniqueID: 1236871927
     locked: 0

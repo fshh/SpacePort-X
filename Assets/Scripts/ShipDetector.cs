@@ -14,9 +14,9 @@ public class ShipDetector : MonoBehaviour {
 		
 	}
 
-    private void OnTriggerEnter2D(Collider2D other) {
-        if (other.gameObject.GetComponent<ShipController>() && other.gameObject.layer == this.gameObject.layer) {
-            ShipController controller = other.gameObject.GetComponent<ShipController>();
+    private void OnTriggerEnter2D(Collider2D collision) {
+        if (collision.gameObject.GetComponent<ShipController>() && collision.gameObject.layer == this.gameObject.layer) {
+            ShipController controller = collision.gameObject.GetComponent<ShipController>();
             controller.Score();
         }
     }
